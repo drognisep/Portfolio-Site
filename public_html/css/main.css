@@ -1,0 +1,141 @@
+@CHARSET "ISO-8859-1";
+
+body {
+  background-color: rgb(193,220,232);
+}
+
+.my-header-bar {
+  border-bottom: 2px solid rgb(54,114,129);
+  padding: 12px;
+  text-align: center;
+  background-color: rgb(45, 95, 108);
+  color: rgb(193,220,232);
+  text-shadow: 4px 4px 4px black;
+}
+
+.my-header-bar a {
+  color: rgb(193,220,232);
+}
+
+.my-header-bar h1 {
+  font-family: 'Cinzel', serif;
+  font-weight: 900;
+}
+
+.my-header-bar p {
+  font-style: italic;
+}
+
+.my-top-menu-bar {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: rgb(193,220,232);
+  background-color: rgb(45, 95, 108);
+  margin-bottom: 16px;
+}
+
+.my-top-menu-bar a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 3px;
+  text-shadow: 2px 2px 2px black;
+  margin-left: 12px;
+}
+
+.my-top-menu-bar a:link {
+  color: rgb(193,220,232);
+}
+
+.my-top-menu-bar a:visited {
+  color: rgb(193,220,232);
+}
+
+.my-top-menu-bar a:hover {
+  background-color: rgb(10,57,71);
+}
+
+.my-main-frame {
+  background-color: rgb(193,220,232);
+  color: rgb(0,33,52);
+}
+
+.my-main-frame .my-content {
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.my-main-frame h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+  /*margin-right: 60px;
+  margin-left: 60px;*/
+  
+}
+
+.my-main-frame h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 18px;
+  border-bottom: 2px solid rgb(174,210,225);
+  margin-bottom: 30px;
+}
+
+.my-main-frame p {
+  font-family: 'Alegreya', serif;
+  font-weight: 400;
+  font-size: 17px;
+  /*margin-right: 60px;
+  margin-left: 60px;*/
+}
+
+.my-main-frame li {
+  /*margin-right: 60px;
+  margin-left: 60px;*/
+}
+
+.my-main-frame img {
+  width: 100%;
+}
+
+.my-side-menu {
+  
+}
+
+.my-side-menu li {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+}
+
+.my-project-preview {
+  text-align: left;
+  border-bottom: 2px solid rgb(174,210,225);
+  padding-bottom: 30px;
+}
+
+.my-project-preview h4 {
+  line-height: 35px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.my-project-preview p {
+  padding-top: 30px;
+}
+
+.my-project-focus h1 {
+  color: #fff;
+  text-shadow: 0px 0px 5px #000;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+.my-project-focus .jumbotron {
+  color: #fff;
+  text-shadow: 0px 0px 5px #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

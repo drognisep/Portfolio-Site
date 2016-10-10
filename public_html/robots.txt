@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /js/
+Disallow: /me_resources/
+Disallow: /projects/

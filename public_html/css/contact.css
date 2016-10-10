@@ -1,0 +1,45 @@
+@CHARSET "ISO-8859-1";
+
+body {
+  margin: 0px;
+}
+
+div.contact-container {
+  background: #cccccc;
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  content: " ";
+}
+
+.contact-form {
+  position: relative;
+  background-color: rgb(45, 95, 108);
+  width: 70%;
+  margin: 0 0 0 -35%;
+  left: 50%;
+  border: rgb(54,114,129) 3px solid;
+  padding: 12px;
+}
+
+.contact-form label {
+  color: rgb(193,220,232);
+}
+
+.contact-form input {
+  vertical-align: top;
+}
+
+.contact-form textarea {
+  width:100%;
+  box-sizing: border-box;
+  height: 128px;
+}
+
+.contact-form textarea:disabled {
+  background-color: rgb(193,220,232);
+}
+
+.contact-form input:disabled {
+  background-color: rgb(193,220,232);
+}
